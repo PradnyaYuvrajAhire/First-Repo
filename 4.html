@@ -1,0 +1,24 @@
+<script>
+    class a{
+        myfunction1()
+        {
+            console.log("myfunction 1");
+        }
+    }
+
+
+    class b extends a{
+        myfunction1()
+        {
+            super .myfunction1();
+            console.log("myfunction 2");
+        }
+
+
+    }
+    var obj=new b;
+    
+    obj.myfunction1();
+
+</script>
+<!-- jar name function same asel tar child class  mem overide and run child class fun so use super keyword for parent fun -->

@@ -1,0 +1,27 @@
+<script>
+    class a{
+        constructor()
+        {
+            console.log("myfunction 1");
+        }
+    }
+
+
+    class b extends a{
+        constructor()
+        {
+            
+            console.log("myfunction 2");
+            super();
+            console.log(this);
+        }
+
+
+    }
+    var obj=new b;
+    
+    
+
+</script>
+<!-- super() - is used for access the class constructor-
+    write super() before this> 
